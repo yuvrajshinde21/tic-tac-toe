@@ -1,0 +1,72 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.cointainer {
+  background-color: #548687;
+  min-height: 104vmin;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: flex-start;
+}
+.cointainer h1 {
+  text-align: center;
+  font-family: cursive;
+  font-size: 10vmin;
+  padding-bottom: 20px;
+}
+.game {
+  min-height: 67vmin;
+  width: 70vmin;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.game .box {
+  height: 18vmin;
+  background-color: white;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.5);
+  width: 18vmin;
+  margin: 2.12vmin;
+  border: none;
+  border-radius: 10px;
+  font-size: 10vmin;
+  font-family: monospace;
+}
+.reset-btn {
+  height: 8vmin;
+  width: 24vmin;
+  background-color: red;
+  margin: 2.12vmin;
+  border: none;
+  border-radius: 10px;
+  font-size: 5vmin;
+  align-self: center;
+  font-family: monospace;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.5);
+
+}
+
+/* ================= */
+#win-popup {
+  position: fixed; /* Stay on top of everything */
+  display: none; /* Hidden by default */
+  height: 100%;
+  width: 100%; /* Full screen */
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.5);
+  /* z-index: 1000;                 On top */
+}
+#win-message {
+  font-size: 70px;
+  color: black;
+  background: white;
+  border-radius: 10px;
+  margin: 20px;
+  padding: 5px 30px 5px 30px;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 1);
+
+}
